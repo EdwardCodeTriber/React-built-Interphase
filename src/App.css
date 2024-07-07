@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   padding: 0px;
   margin: 0px;
@@ -6,23 +7,113 @@
 body{
   background:linear-gradient(to right, white 50%,rgb(255, 220, 125) 50%) ;
 }
-.Home-container{
-  width: 100%;
-  height: 100vh;
-  /* display: flex;
-  /* align-items: center; 
-  justify-content: center; */
-  
-}
-/* div{
-  display:flex;
-  flex-direction: column;
-} */
 
 .navbar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  margin: 20px;
+  padding: 25px;
+  gap: 450px;
+}
+.Option li{
+display: inline;
+}
+.Option a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+.Option a:hover{
+  color: rgb(245, 230, 95);
+}
+.Icon li{
+display: inline;
+}
+.Icon a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+.Icon a:hover{
+  color: azure;
+}
+.details{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 350px;
+  margin: 25px;
+}
+.details h1{
+  font-size: 35px;
+  padding: 25px;
+}
+.details p{
+  font-size: large;
+  padding: 25px;
+  color: gray;
+}
+span{
+  font-size: large;
+  font-weight: 800;
+  color: black;
+}
+.details button{
+  padding: 25px;
+  margin: 25px;
+  color: black;
+} 
+.bty-buy{
+  background-color: rgb(245, 230, 95);
+}
+.pic{
+  width: 250px;
+  height: 250px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin: 25px;
+  gap: 255px;
+}
+.Social-links li{
+  display: inline;
+}
+.Social-links a{
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+}
+
+.Social-links a:hover{
+  color: wheat;
+}
+
+.left{
+  background-color: transparent;
+  color: black;
+  height: 50px;
+  width: 73px;
+}
+.right{
+  background-color: transparent;
+  color: black;
+  height: 50px;
+  width: 73px;
+}
+.card button{
+  height: 55px;
+  width: 105px;
+  background-color: rgb(247, 213, 66);
+}
+
+
+
+
+/* .navbar{
 
   display: flex;
-  flex-wrap: wrap;
   justify-content:center;
   justify-content: space-between;
   height: 95px;
@@ -38,8 +129,6 @@ body{
 
 .Option li{
   list-style: none;
-  
-  padding-right: 90px;
 
 }
 .Icon{
@@ -52,7 +141,7 @@ body{
 .Icon li{
   display: flex;
   display: inline;
-  padding-right: 90px;
+  
 }
 .home-content{
   display: flex;
@@ -73,10 +162,9 @@ body{
   font-family: "Poppins", sans-serif;
   font-weight: 3000;
   font-style: normal;
-  padding-left: 125px;
 }
 .content{
-  padding-left: 25px;
+  
 }
 .content p{
   padding-left: 50px;
@@ -90,13 +178,11 @@ body{
   font-size: 30px;
   height: 60px;
   background-color: rgb(255, 184, 91);
-  padding-left: 50px;
 }
 
 .card button{
   position: relative;
   display: flex;
-  padding-left: 45px;
 }
 span{
   margin-top: 100px;
@@ -116,9 +202,13 @@ span{
   align-items: center;
 }
 .footer ul{
-  margin-top: 25px;
-  height: 100px;
+  display: inline;
+  height: 10px;
+
 }
+.cart{
+  
+} */
 /* .navbar a{
   text-decoration: none;
   padding: 15px;

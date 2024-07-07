@@ -1,8 +1,9 @@
 function ViewContent(){
     return(
         <div className="details">
+            <div className="Info">
             <h1>Wood Candy Sofa</h1>
-            <div className="content">
+            
                 <p> Yonoh creative Studios from Spain has won many design <br></br>
                 awards such as iF and
                 red dot. Complexcity and simplicity<br></br>
@@ -11,8 +12,9 @@ function ViewContent(){
                 </p>
                 <button className="bty-buy"> Buy now</button>
             </div>
-            
-
+            <div className='pic'>
+                <img src='./public/picture-back.png' alt=''>
+                    </img></div>
         </div>
     )
 }
