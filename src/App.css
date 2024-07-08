@@ -66,9 +66,9 @@ span{
 .bty-buy{
   background-color: rgb(245, 230, 95);
 }
-.pic{
-  width: 250px;
-  height: 250px;
+.pic img{
+  height: 450px;
+  width: 450px;
 }
 
 .footer{

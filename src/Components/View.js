@@ -13,7 +13,7 @@ function ViewContent(){
                 <button className="bty-buy"> Buy now</button>
             </div>
             <div className='pic'>
-                <img src='./public/picture-back.png' alt=''>
+                <img src='public/polly_sofa_.jpg' alt='Couch'>
                     </img></div>
         </div>
     )
