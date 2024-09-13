@@ -3,10 +3,10 @@ import "../styles/Home.css";
 
 const Home = () => {
 
-  const clicked = () => {
-    console.log("Clicked");
-  };
-  
+  // const clicked = () => {
+  //   console.log("Clicked");
+  // };
+
   return (
     <div className="product-page">
       <div className="product-info">
@@ -17,7 +17,9 @@ const Home = () => {
           design.
         </p>
         <h3 className="product-price">R399.00</h3>
-        <button className="buy-now-button" onClick={clicked}>
+        <button className="buy-now-button" 
+        // onClick={clicked}
+        >
           Buy now
         </button>
       </div>
