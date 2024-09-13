@@ -1,8 +1,15 @@
 import React from 'react';
 import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa';
 import '../styles/Navbar.css'; 
+// import '../App.css'
 
 const Navbar = () => {
+
+  function toggleMenu() {
+    const navbar = document.querySelector('.navbar');
+    navbar.classList.toggle('active');
+  }
+
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -15,6 +22,8 @@ const Navbar = () => {
         <FaShoppingCart className="nav-icon" />
         <FaUser className="nav-icon" />
       </div>
+      {/* Hamburger Menu Icon  */}
+      <div class="hamburger" onclick={toggleMenu}>☰</div>
     </nav>
   );
 };

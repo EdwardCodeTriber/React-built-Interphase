@@ -10,6 +10,11 @@ import {
 import '../styles/Footer.css'
 
 const Footer = () => {
+
+  const clicked = () => {
+    console.log("Clicked");
+  };
+  
   return (
     <footer className="footer">
       <div className="footer-left">
@@ -22,7 +27,7 @@ const Footer = () => {
         <FaArrowRight className="footer-arrow" />
       </div>
       <div className="footer-right">
-        <button className="footer-cart-button">
+        <button className="footer-cart-button" onClick={clicked}>
           <FaShoppingCart className="footer-cart-icon" /> Cart
         </button>
       </div>
