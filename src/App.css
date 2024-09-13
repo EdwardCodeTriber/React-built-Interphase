@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
   padding: 0px;
   margin: 0px;
   border: none;
 }
-body{
-  background:linear-gradient(to right, white 50%,rgb(255, 220, 125) 50%) ;
+body {
+  background: linear-gradient(to right, white 50%, rgb(255, 220, 125) 50%);
 }
 
-.navbar{
+.navbar {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 50px;
@@ -16,266 +16,94 @@ body{
   padding: 25px;
   gap: 450px;
 }
-.Option li{
-display: inline;
+.Option li {
+  display: inline;
 }
-.Option a{
+.Option a {
   text-decoration: none;
   font-size: 25px;
   color: black;
 }
-.Option a:hover{
+.Option a:hover {
   color: rgb(245, 230, 95);
 }
-.Icon li{
-display: inline;
+.Icon li {
+  display: inline;
 }
-.Icon a{
+.Icon a {
   text-decoration: none;
   font-size: 25px;
   color: black;
 }
-.Icon a:hover{
+.Icon a:hover {
   color: azure;
 }
-.details{
+.details {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 350px;
   margin: 25px;
 }
-.details h1{
+.details h1 {
   font-size: 35px;
   padding: 25px;
 }
-.details p{
+.details p {
   font-size: large;
   padding: 25px;
   color: gray;
 }
-span{
+span {
   font-size: large;
   font-weight: 800;
   color: black;
 }
-.details button{
+.details button {
   padding: 25px;
   margin: 25px;
   color: black;
-} 
-.bty-buy{
+}
+.bty-buy {
   background-color: rgb(245, 230, 95);
 }
-.pic img{
+.pic img {
   height: 450px;
   width: 450px;
 }
 
-.footer{
+.footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 25px;
   gap: 255px;
 }
-.Social-links li{
+.Social-links li {
   display: inline;
 }
-.Social-links a{
+.Social-links a {
   text-decoration: none;
   font-size: 35px;
   color: black;
 }
 
-.Social-links a:hover{
+.Social-links a:hover {
   color: wheat;
 }
 
-.left{
+.left {
   background-color: transparent;
   color: black;
   height: 50px;
   width: 73px;
 }
-.right{
+.right {
   background-color: transparent;
   color: black;
   height: 50px;
   width: 73px;
 }
-.card button{
+.card button {
   height: 55px;
   width: 105px;
   background-color: rgb(247, 213, 66);
 }
-
-
-
-
-/* .navbar{
-
-  display: flex;
-  justify-content:center;
-  justify-content: space-between;
-  height: 95px;
-}
-.navbar ul{
-  margin-top: 25px;
-  height: 100px;
-}
-.Option{
-  padding-left: 25px;
-  display: flex;
-}
-
-.Option li{
-  list-style: none;
-
-}
-.Icon{
- 
-}
-.Icon a{
-  text-decoration: none;
-  color: black;
-}
-.Icon li{
-  display: flex;
-  display: inline;
-  
-}
-.home-content{
-  display: flex;
-  justify-content: space-between;
-}
-.details{
-  box: 2px 5px 15px 2px ;
-  margin-top: 85px;
-}
-.Option a{
-  text-decoration: none;
-  color: gray;
-}
-.navbar a:hover{
-  background-color: rgb(255, 184, 91);
-}
-.details h1{
-  font-family: "Poppins", sans-serif;
-  font-weight: 3000;
-  font-style: normal;
-}
-.content{
-  
-}
-.content p{
-  padding-left: 50px;
-  color: gray;
-}
-.bty-buy{
-  display: inline;
-  margin-top: 25px;
-  font-size: 20px;
-  
-  font-size: 30px;
-  height: 60px;
-  background-color: rgb(255, 184, 91);
-}
-
-.card button{
-  position: relative;
-  display: flex;
-}
-span{
-  margin-top: 100px;
-  color: black;
-  font-size: 45px;
-  font-weight: 500;
-}
-
-.pic img{
-
-  width: 100px;
-  height: 100px;
-}
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.footer ul{
-  display: inline;
-  height: 10px;
-
-}
-.cart{
-  
-} */
-/* .navbar a{
-  text-decoration: none;
-  padding: 15px;
-  color: black;
-}
-.Option{
-  margin-block: 25px;
-}
-
-.Option a{
-  align-items: center;
-  color: gray;
-}
-
-.Icon li{
-  display: inline;
-  padding-left: 150px;
-}
-
-
-
-
-.bty-buy{
-  display: inline;
-  margin-top: 25px;
-  font-size: 20px;
-  padding-left: 1px;
-  border-radius: none;
-  font-size: 30px;
-  width: 100%;
-  height: 60px;
-  background-color: rgb(255, 184, 91);
-  padding-right: 30px;
-}
-
-img{
-  width:250px;
-  height: 250px;
-  flex-direction: row;
-
-}
-
-.footer {
-  display: flex;
-  display: inline;
-  justify-content: center;  
-  
-}
-.footer li{
-  display: flex;
-  display: inline;
-}
-.footer a{
-  text-decoration: none;
-  list-style-type: none;
-  
-}
-.footer-list li {
-  font-size: 35px;
-  justify-content: space-between;
-}
-.cart{
-  display: inline;
-  width: 70px;
-  height: 70px;
-  font-size: 45px;
-  margin-bottom: 20px;
-  border-radius: 34px;
-  width: 10px;
-} */

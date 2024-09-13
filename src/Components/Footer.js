@@ -1,29 +1,33 @@
-import React from 'react'
+import React from "react";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaArrowLeft,
+  FaArrowRight,
+  FaShoppingCart,
+} from "react-icons/fa";
+import '../styles/Footer.css'
 
-
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div className='footer'>
-        
-        <ul>
-            <div className='Social-links'>
-              <li><a href=""><i class="ri-google-fill"></i></a></li>
-              <li><a href=""><i class="ri-twitter-fill"></i></a></li>
-              <li><a href=""><i class="ri-facebook-fill"></i></a></li>
-            </div>
-            </ul>
-            <div className='scroll-product'>
-              <button className='left'><i class="ri-arrow-left-line"></i></button>
-              <button className='right'><i class="ri-arrow-right-line"></i></button>
-            </div>
-        
-        <div className='card'><a href='#'><button>Add to cart+</button></a></div>
-
-    </div>
-    
-    
-    
-  )
-}
+    <footer className="footer">
+      <div className="footer-left">
+        <FaFacebook className="footer-icon" />
+        <FaTwitter className="footer-icon" />
+        <FaInstagram className="footer-icon" />
+      </div>
+      <div className="footer-center">
+        <FaArrowLeft className="footer-arrow" />
+        <FaArrowRight className="footer-arrow" />
+      </div>
+      <div className="footer-right">
+        <button className="footer-cart-button">
+          <FaShoppingCart className="footer-cart-icon" /> Cart
+        </button>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

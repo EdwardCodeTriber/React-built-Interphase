@@ -1,28 +1,22 @@
-import React from "react";
+import React from 'react';
+import { FaHeart, FaShoppingCart, FaUser } from 'react-icons/fa';
+import '../styles/Navbar.css'; 
 
 const Navbar = () => {
   return (
-    <div>
-        <div className="navbar">
-        <ul>
-         <div className="Option">
-            <li><a href="#"> Types</a></li>
-            <li><a href="#"> Price</a></li>
-            <li><a href="#"> Connect</a></li>
-         </div>
-         </ul>   
-         <ul>
-         <div className="Icon">
-             <li><a href="#"> <i class="ri-heart-3-fill"></i></a></li>
-             <li><a href="#"> <i class="ri-shopping-cart-2-fill"></i></a></li>
-            <li><a href="#"> <i class="ri-user-3-fill"></i></a></li>
-         </div>
-         
-        </ul>
-    </div>
-    </div>
-    
-  )
-}
+    <nav className="navbar">
+      <div className="navbar-left">
+        <a href="#types" className="nav-link">Types</a>
+        <a href="#price" className="nav-link">Price</a>
+        <a href="#connect" className="nav-link">Connect</a>
+      </div>
+      <div className="navbar-right">
+        <FaHeart className="nav-icon" />
+        <FaShoppingCart className="nav-icon" />
+        <FaUser className="nav-icon" />
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
